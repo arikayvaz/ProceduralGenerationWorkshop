@@ -66,14 +66,16 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _grassHeight: 0.16
-    - _rockHeight: 0.28
-    - _sandHeight: 0.1
-    - _snowHeight: 0.5
+    - _grassHeight: 0.08
+    - _maxHeight: 0
+    - _minHeight: 0
+    - _rockHeight: 0.3
+    - _sandHeight: 0.03
+    - _snowHeight: 0.65
     - _waterHeight: 0.1
     m_Colors:
     - _grassColor: {r: 0.33469903, g: 1, b: 0.1273585, a: 1}
-    - _rockColor: {r: 0.28301886, g: 0.2082875, b: 0.17488429, a: 1}
+    - _rockColor: {r: 0.43529412, g: 0.41960785, b: 0.41568628, a: 1}
     - _sandColor: {r: 0.8773585, g: 0.8154364, b: 0.32694018, a: 1}
     - _snowColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
     - _waterColor: {r: 0, g: 0.8065429, b: 1, a: 1}

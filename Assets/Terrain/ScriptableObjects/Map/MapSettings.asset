@@ -12,9 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4157b6ecc587046a968c6f79ffb4fd, type: 3}
   m_Name: MapSettings
   m_EditorClassIdentifier: 
-  <MapWidth>k__BackingField: 100
-  <MapHeight>k__BackingField: 100
-  <MapNoiseScale>k__BackingField: 28
+  <MapNoiseScale>k__BackingField: 80
   <Octaves>k__BackingField: 8
   <Persistance>k__BackingField: 0.5
   <Lacuranity>k__BackingField: 1.9
@@ -54,3 +52,35 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  <MapColorGradient>k__BackingField:
+    serializedVersion: 2
+    key0: {r: 0, g: 0.30786204, b: 0.5283019, a: 1}
+    key1: {r: 0.042586334, g: 0.49795902, b: 0.8207547, a: 1}
+    key2: {r: 0.8773585, g: 0.7392721, b: 0.29383236, a: 1}
+    key3: {r: 0.22939968, g: 1, b: 0, a: 0}
+    key4: {r: 0.4056604, g: 0.24028932, b: 0.07845318, a: 0}
+    key5: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0}
+    key6: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 11796
+    ctime1: 20971
+    ctime2: 26214
+    ctime3: 42598
+    ctime4: 55705
+    ctime5: 65535
+    ctime6: 65535
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2
+  <UseFalloff>k__BackingField: 1
+  <FalloffParamA>k__BackingField: 3
+  <FalloffParamB>k__BackingField: 2.2

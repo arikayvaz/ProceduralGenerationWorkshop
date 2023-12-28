@@ -17,7 +17,7 @@ namespace ProceduralGenerationWorkshop.Terrain
         {
             if (GUILayout.Button("Generate Map"))
             {
-                generator.GenerateMap();
+                generator.GenerateMapInEditor();
                 return;
             }
 

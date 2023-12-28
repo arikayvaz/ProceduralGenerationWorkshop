@@ -80,5 +80,34 @@ namespace ProceduralGenerationWorkshop.Terrain
 
             return noiseMap;
         }
+
+        public static float[,] GenerateFalloffMap(int size, float paramA, float paramB) 
+        {
+            float[,] map = new float[size,size];
+            float fSize = (float)size;
+
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    float x = i / fSize * 2 - 1;
+                    float y = j / fSize * 2 - 1;
+
+                    float value = Mathf.Max(Mathf.Abs(x), Mathf.Abs(y));
+                    map[i, j] = EvaluateFalloff(value, paramA, paramB);
+                }
+            }
+
+            return map;
+        }
+
+        //Formula: x^a / x^a + (b - bx)^a
+        static float EvaluateFalloff(float value, float paramA, float paramB) 
+        {
+            float a = paramA;
+            float b = paramB;
+
+            return Mathf.Pow(value, a) / (Mathf.Pow(value, a) + Mathf.Pow((b - b * value), a));
+        }
     }
 }
